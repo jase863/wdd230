@@ -44,6 +44,10 @@ h2{
 }
 .card li{
     margin-left: 0;
+    font-size: 150%;
+}
+div{
+    font-size: 150%;
 }
 }
 footer{

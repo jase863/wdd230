@@ -13,7 +13,7 @@ header{
     align-items: center;
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 0;
+    padding-left: 1%;
 }
 header h1{
     padding-left: 5%;
@@ -31,13 +31,13 @@ ul{
 nav{
     background-color: #969292;
     font-size: 22px;
+}
 #home{
     background-color: #433E3F;
 }
 #home a:hover{
     color:#969292;
     transform: scale(1.15);
-}
 }
 nav a{
     display: block;
@@ -100,4 +100,5 @@ footer p{
 }
 #lastModified{
     color: yellow;
+    margin-top: 2%;
 }

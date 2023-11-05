@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Lato:wght@300&display=swap');
+body{
+    background-color: #cdd1c4ff;
+}
+h1{
+    font-family: Arimo;
+    color: #30323dff;
+}
+h2{
+    font-family: Arimo;
+    color: #30323dff;
+}
+p{
+    font-family: Lato;
+    font-size: 125%;
+    color: #3F5479;
+}
+ul{
+    font-family: Lato;
+    font-size: 125%;
+    color: #3F5479;
+    list-style-type: none;
+}
+#saffron{
+    padding: 5px 10px 5px 10px;
+    background-color: #e8c547ff;
+    width:fit-content;
+}
+#jet{
+    padding: 5px 10px 5px 10px;
+    background-color: #30323dff;
+    width: fit-content;
+    color: #cdd1c4ff;
+}
+#davys{
+    padding: 5px 10px 5px 10px;
+    background-color: #4d5061ff;
+    width: fit-content;
+    color: #cdd1c4ff;
+}
+#yinmn{
+    padding: 5px 10px 5px 10px;
+    background-color: #3F5479;
+    width: fit-content;
+    color: #cdd1c4ff;
+}
+#ash{
+    padding: 5px 10px 5px 10px;
+    border-color: #30323dff;
+    border-style: solid;
+    width: fit-content;
+}
+#arimo{
+    font-family: Arimo;
+}
+#lato{
+    font-family: lato;
+}
+
+

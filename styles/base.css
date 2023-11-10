@@ -64,21 +64,23 @@ nav li a{
 }
 #menu{
     display: block;
-	font-size: 1%;
-	border: 2% solid rgba(0,0,0,.3);
+	font-size: 75%;
+	border: 1% solid rgba(0,0,0,.3);
 	padding: 2% 2% 2%;
-	background-color: #cdd1c4ff;
-	color: black;
+	background-color: aliceblue;
+    color: #184477;
  	position: absolute;
 	right: 2%;
 	top: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1.5px 15px black;
 }
 #menu::before {
-	content: "☰";
+	content: '☰';
 }
 
 #menu.open::before {
-	content: "❌";
+	content: '❌';
 }
 #home{
     background-color: #433E3F;

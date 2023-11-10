@@ -25,6 +25,8 @@ img{
     border-radius: 5%;
     box-shadow: 2.5px 2.5px 20px black;
 }
+
+/* navigation elements with hamburger menu */
 ul{
     list-style-type: none;
 }
@@ -54,6 +56,29 @@ nav li a{
 	background-color: #184477;
 	color: aliceblue;
 }
+
+/* emphasis for home link on nav menu */
+#home{
+    background-color: #433E3F;
+}
+#home a{
+    padding-left: 25%;
+    width: 100%;
+    color: white;
+}
+#home a:hover{
+    color: yellow;
+    transform: scale(1.15);
+}
+nav a:hover{
+    transform: scale(1.15);
+}
+nav ul{
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+/* elements for utilization with javascript */
 .open li {
 	display: flex;
     justify-content: center;
@@ -62,6 +87,8 @@ nav li a{
 .open li a {
 	display: block;
 }
+
+/* button */
 #menu{
     display: block;
 	font-size: 75%;
@@ -82,25 +109,7 @@ nav li a{
 #menu.open::before {
 	content: '❌';
 }
-#home{
-    background-color: #433E3F;
-}
-#home a{
-    padding-left: 25%;
-    width: 100%;
-    color: white;
-}
-#home a:hover{
-    color: yellow;
-    transform: scale(1.15);
-}
-nav a:hover{
-    transform: scale(1.15);
-}
-nav ul{
-    margin: 0 auto;
-    padding-left: 0;
-}
+
 main{
     display: grid;
     grid-template-columns: 1fr;

@@ -18,7 +18,7 @@ img{
 #dark-mode{
     display: block;
     font-size: 175%;
-    border: 1% solid rgba(0,0,0,.3);
+    border: 2px solid rgba(0,0,0,.3);
 	padding: 1.5% 1.5% 1.5%;
     background-color: aliceblue;
     color: #184477;

@@ -97,7 +97,7 @@ nav ul{
 #menu{
     display: block;
 	font-size: 75%;
-	border: 1% solid rgba(0,0,0,.3);
+	border: 2px solid rgba(0,0,0,.3);
 	padding: 2% 2% 2%;
 	background-color: aliceblue;
     color: #184477;
@@ -123,7 +123,7 @@ main{
 #dark-mode{
     display: block;
     font-size: 100%;
-    border: 1% solid rgba(0,0,0,.3);
+    border: 2px solid rgba(0,0,0,.3);
 	padding: 1.5% 1.5% 1.5%;
     background-color: aliceblue;
     color: #184477;

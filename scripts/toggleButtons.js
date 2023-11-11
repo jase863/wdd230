@@ -11,7 +11,7 @@ menuButton.addEventListener('click', ()=>{
 });
 
 darkModeButton.addEventListener('click', ()=>{
-    
+
     main.classList.toggle('mode');
     darkModeButton.classList.toggle('mode');
 
@@ -22,21 +22,3 @@ darkModeButton.addEventListener('click', ()=>{
 
     }
 });
-
-
-// darkModeButton.addEventListener('click', ()=>{
-    
-//     if (darkModeButton.textContent.includes('🌙')){
-
-//         darkModeButton.textContent = '☀️';
-//         main.style.background = 'black';
-//         main.style.color = 'aliceblue';
-       
-//     } else{
-//         darkModeButton.textContent = '🌙';
-//         main.style.background = 'white';
-//         main.style.color = '#184477';
-//     }
-
-// });
-

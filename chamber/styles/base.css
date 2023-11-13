@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Lato:wght@300&display=swap');
+body{
+    background-color: #cdd1c4ff;
+}
+header{
+    background-color: #3f5479;
+}
+nav{
+    display: flex;
+	flex-direction: column;
+	list-style: none;
+    background-color: #4d5061ff;
+    font-size: 20px;
+}
+nav a{
+    display: block;
+    text-align: justify;
+    padding: 5%;
+    color: #cdd1c4ff;
+    text-decoration: none;
+}
+nav li{
+    display: none;
+}
+
+nav li a{
+    display: block;
+	padding: 1rem;
+}
+.open li {
+	display: flex;
+    justify-content: center;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+#menu{
+    display: block;
+	font-size: 80%;
+	border: 2px solid rgba(0,0,0,.3);
+	padding: 3% 3% 3% 3%;
+	background-color: aliceblue;
+    color: #184477;
+ 	position: absolute;
+	right: 3%;
+	top: 2%;
+    border-radius: 10px;
+    box-shadow: 1px 1.5px 15px black;
+}
+#menu::before {
+	content: '☰';
+}
+
+#menu.open::before {
+	content: '❌';
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-left: 5px;
+    height: 100%;
+}
+nav li{
+    font-family: Arimo;
+    font-size-adjust: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav li:hover{
+    transform: scale(1.1);
+}
+nav a:hover{
+    color: yellow;
+}
+#logo{
+    max-width: 40%;
+    margin: 5%;
+    margin-left: 30%;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(16,1fr);
+}
+
+#hero-img{
+    max-width: 100%;
+    grid-column: 1/5;
+    grid-row: 1/5;
+}
+p{
+    font-family: Lato;
+    font-size: 100%;
+    color: #3F5479;
+}
+#call-to-action{
+    color: rgb(17, 22, 54);
+    grid-column: 2/4;
+    grid-row: 6/7;
+    font-family: Arimo;
+    font-size: 150%;
+    margin: 0 auto;
+}
+#current-event{
+    grid-column: 2/4;
+    grid-row: 8/10;
+    text-align: center;
+    border: 1px solid black;
+    font-family: Arimo;
+}
+#weather{
+    grid-column: 2/4;
+    grid-row: 11/13;
+    text-align: center;
+    border: 1px solid black;
+    font-family: Arimo;
+}
+#spotlight{
+    text-align: center;
+    grid-column: 2/4;
+    grid-row: 14/16;
+    border: 1px solid black;
+    font-family: Arimo;
+}
+footer{
+    text-align: center;
+    font-family: Arimo;
+    font-size: 100%;
+    display: block;
+    padding: 1% 10% 1% 10%;
+    background-color: #3f5479;
+}
+footer p{
+    color: #cdd1c4ff;
+    font-family: Lato;
+    font-size: 100%;
+}
+#lastModified{
+    color: yellow;
+    margin-top: 2%;
+}

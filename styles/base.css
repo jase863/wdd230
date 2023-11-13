@@ -49,7 +49,7 @@ nav li{
 }
 
 nav li a{
-    display: block;
+	display: block;
 	padding: 1rem;
 }
 .nav li a:hover {

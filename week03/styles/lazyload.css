@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Lato:wght@300&display=swap');
 h1{
     font-family: Arimo;
     color: #3f5479;
@@ -7,12 +8,25 @@ main img{
     margin: 0 auto;
     display: block;
     padding-bottom: 100px;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1; 
+    }   
 }
 footer{
     background-color: #3f5479;
 }
 #lastModified{
+    font-family: Arimo;
+    font-size: 20px;
     color: yellow;
     margin-top: 2%;
 }
+
 

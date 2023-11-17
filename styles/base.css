@@ -27,7 +27,7 @@ header h1{
 }
 
 .hero {
-    margin: 10px auto;
+    margin: 2% auto;
     position: relative;
     height: 300px;
 }
@@ -167,7 +167,7 @@ main{
 
 h2{
     margin: 0 auto;
-    padding-top: 3%;
+    margin-top: -15%;
     padding-bottom: 3%;
     font-size: 125%;
     text-decoration: underline;
@@ -175,7 +175,8 @@ h2{
 .card{
     display: block;
     width: 90%;
-    margin: auto auto 5% auto;
+    margin: 0 auto;
+    margin-bottom: 5%;
     border: solid gray;
 }
 h3{
@@ -193,6 +194,10 @@ h3{
     margin-top: 0;
     margin-bottom: 0;
 }
+iframe{
+    max-width: 100%;
+    margin-bottom: 5%;
+}
 footer{
     padding: 10%;
     background-color: #184477;
@@ -209,3 +214,4 @@ footer p{
     color: yellow;
     margin-top: 2%;
 }
+

@@ -7,7 +7,7 @@ if(visitNumber !== 0) {
 
 } else{
 
-    visitNumber.textContent = visitNumber.textContent = "Welcome to my homepage! Thanks for stopping by!"
+    visits.textContent = "Welcome to my homepage! Thanks for stopping by!"
 }
 
 visitNumber++;

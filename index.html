@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <img src="images/optimized-profile-pic.jpg" alt="picture of Jason Walker in a 'Deutscher Fussball-Bund' jersey">
+        <img id="profile" src="images/optimized-profile-pic.webp" alt="picture of Jason Walker in a 'Deutscher Fussball-Bund' jersey">
         <h1>Jason Walker</h1>
         <button id="menu"></button>
         <button id="dark-mode"></button>
@@ -33,6 +33,18 @@
         </ul>
     </nav>
     <main>
+        <div class="hero">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="large image of the Bern Temple in Zollikofen, Switerland" width="2" height="1">
+            </picture>
+            <div id="label">
+                <p id="temple-text">Bern, Switerland Temple</p>
+            </div>
+        </div>
+        
+            
         <h2>WDD 230: Web Frontend Development</h2>
         <section class="card">
             <h3>Learning Activities</h3>
@@ -50,7 +62,11 @@
                     <a href="week02/bom.html">BOM Faves App</a>
                 </li>
                 <li>
-                    Week 03: <a href="week03/images/landscape.webp">WebP</a>
+                    Week 03: 
+                    <a href="week03/images/landscape.webp">WebP</a>
+                    <a href="week03/lazyload.html">Lazy Loading</a>
+                    <a href="week03/responsive-images.html">Responsive Images</a>
+                    <a href="week03/bom.html">BOM Favorite Chapters</a>
                 </li>
                 <li>
                     Week 04:<a></a>
@@ -66,16 +82,20 @@
         <section class="card">
             <h3>Information</h3>
             <div>Weather</div>
-            <div>Number of visits</div>
+            <div id="visits">Number of visits</div>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12014.063285395629!2d-112.08340659999999!3d41.1669153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1700208947177!5m2!1sen!2sus" 
+        width="650" height="310" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </main>
     <footer>
-        <p>
+        <p id="copyright">
             &copy; Jason Walker Utah
         </p>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/toggleButtons.js"></script>
+    <script src="scripts/numberOfVisits.js"></script>
 </body>
 </html>

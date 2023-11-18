@@ -60,7 +60,7 @@
         color: #3F5479;
     }
     #call-to-action{
-        color: #4d5061ff;
+        color: #30323dff;
         grid-column: 6/8;
         grid-row: 7/9;
         font-family: Arimo;
@@ -71,26 +71,58 @@
     #current-event{
         grid-column: 4/10;
         grid-row: 8/16;
-        text-align: center;
-        padding-top: 3%;
-        border: 1px solid black;
+        border: 1px solid black;   
+    }
+    #current-event h2{
         font-family: Arimo;
+        text-align: center;
+        margin-top: 2%;
+        color: #30323dff;
+    }
+    #current-event p{
+        text-align: center;
     }
     #weather{
         grid-column: 1/3;
         grid-row: 7/9;
-        text-align: center;
         margin-left: 15%;
         border: 1px solid black;
+    }
+    #weather h2{
         font-family: Arimo;
+        text-align: center;
+        margin-top: 2%;
+        color: #30323dff;
     }
     #spotlight{
         margin-right: 15%;
-        text-align: center;
         grid-column: 11/13;
         grid-row: 7/9;
-        border: 1px solid black;
+        border: 1px solid black;   
+    }
+    #spotlight h2{
         font-family: Arimo;
+        text-align: center;
+        margin-top: 2%;
+        color: #30323dff;
+    }
+    #upcoming{
+        grid-column: 1/4;
+        margin: 5% 0 5% 15% ;
+        margin-bottom: 5%;
+        border: 1px solid black;
+    }
+    #upcoming h3{
+        margin: 0 auto;
+        margin-top: 5%;
+        text-align: center;
+    }
+    #calendar-box{
+        grid-column: 1/4;
+        margin-left: 15%;
+    }
+    #calendar{
+        width: 100%;
     }
     footer{
         text-align: center;

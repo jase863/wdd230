@@ -94,11 +94,12 @@ nav a:hover{
 main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(16,1fr);
+    grid-template-rows: repeat(13,1fr);
 }
 
 #hero-img{
     max-width: 100%;
+    height: auto;
     grid-column: 1/5;
     grid-row: 1/5;
 }
@@ -110,31 +111,44 @@ p{
 #call-to-action{
     color: rgb(17, 22, 54);
     grid-column: 2/4;
-    grid-row: 5/6;
+    grid-row: 3/4;
     font-family: Arimo;
     font-size: 150%;
     margin: 0 auto;;
 }
 #current-event{
     grid-column: 2/4;
-    grid-row: 7/9;
-    text-align: center;
+    grid-row: 4/6;
     border: 1px solid black;
+}
+#current-event h2{
     font-family: Arimo;
+    text-align: center;
+    color: #30323dff;
+}
+#current-event p{
+    text-align: center;
 }
 #weather{
     grid-column: 2/4;
-    grid-row: 10/12;
+    grid-row: 7/9;
     text-align: center;
     border: 1px solid black;
+}
+#weather h2{
     font-family: Arimo;
+    text-align: center;
+    color: #30323dff;
 }
 #spotlight{
-    text-align: center;
     grid-column: 2/4;
-    grid-row: 13/15;
+    grid-row: 10/12;
     border: 1px solid black;
+}
+#spotlight h2{
+    text-align: center;
     font-family: Arimo;
+    color: #30323dff;
 }
 footer{
     text-align: center;

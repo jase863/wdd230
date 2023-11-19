@@ -92,6 +92,7 @@
     }
     #weather h2{
         font-family: Arimo;
+        padding: 2%;
         text-align: center;
         margin-top: 2%;
         color: #30323dff;
@@ -104,6 +105,7 @@
     }
     #spotlight h2{
         font-family: Arimo;
+        padding: 2%;
         text-align: center;
         margin-top: 2%;
         color: #30323dff;

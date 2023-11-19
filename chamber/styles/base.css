@@ -94,7 +94,7 @@ nav a:hover{
 main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(13,1fr);
+    grid-template-rows: repeat(20,1fr);
 }
 
 #hero-img{
@@ -114,7 +114,7 @@ p{
     grid-row: 3/4;
     font-family: Arimo;
     font-size: 150%;
-    margin: 0 auto;;
+    margin: 0 auto;
 }
 #current-event{
     grid-column: 2/4;
@@ -149,6 +149,95 @@ p{
     text-align: center;
     font-family: Arimo;
     color: #30323dff;
+}
+#upcoming{
+    background-color: #4d5061ff;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin-top: 5%;
+    text-align: center;
+    border: 1px solid black;
+}
+#upcoming h3{
+    font-family: Arimo;
+    color: #cdd1c4ff;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+#upcoming p{
+    font-family: Lato;
+    color: #cdd1c4ff;
+    font-size: 150%;
+}
+#colonial-advert{
+    background-color: #4d5061ff;
+    color: #cdd1c4ff;
+    grid-column: 2/4;
+    grid-row: 2/3;
+    margin-top: 5%;
+    text-align: center; 
+    border: 1px solid black;
+    width: 100%;
+}
+#colonial-advert h3{
+    font-family: Arimo;
+    color: #cdd1c4ff;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    text-align: center;
+}
+#colonial-advert img{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    box-shadow: 5px 5px 15px #4d5061ff;
+    max-width: 80%;
+}
+#days-message{
+    grid-column: 2/4;
+    grid-row: 2;
+    margin-top: 500px;
+    margin-bottom: 100%;
+    height: 20%;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arimo;
+    color: #cdd1c4ff;
+    background-color: #4d5061ff;
+}
+#calendar-box{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    margin-top: 5%;
+    padding-top: 5%;
+    font-size: 320px;
+    width: 1em;
+}
+iframe{
+    width: 100%;
+}
+#photo-box{
+    background-color: #4d5061ff;
+    grid-column: 2/4;
+    grid-row: 9/20;
+    margin: 3% 0 15% 5%;
+    border: 1px solid black;
+    width: 100%;
+    padding: 5%;
+}
+#photo-box img{
+    max-width: 100%;
+    max-height: auto;
+}
+#photo-box img:hover{
+    transform: scale(1.05);
+}
+.image-caption{
+    color: #cdd1c4ff;
+    font-family: Arimo;
+    padding-top: 0;
+    text-align: center;
+    width: 100%;
 }
 footer{
     text-align: center;

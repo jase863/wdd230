@@ -94,7 +94,7 @@ nav a:hover{
 main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(20,auto);
+    grid-template-rows: repeat(10,auto);
 }
 
 #hero-img{
@@ -111,16 +111,18 @@ p{
 #call-to-action{
     color: rgb(17, 22, 54);
     grid-column: 2/4;
-    grid-row: 3/4;
+    grid-row: 6;
     font-family: Arimo;
     font-size: 150%;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 #current-event{
     grid-column: 2/4;
-    grid-row: 4/6;
+    grid-row: 7;
+    margin-top: 15%;
     border: 1px solid black;
+   
 }
 #current-event h2{
     font-family: Arimo;
@@ -132,7 +134,8 @@ p{
 }
 #weather{
     grid-column: 2/4;
-    grid-row: 7/9;
+    grid-row: 8;
+    margin-top: 15%;
     text-align: center;
     border: 1px solid black;
 }
@@ -143,7 +146,11 @@ p{
 }
 #spotlight{
     grid-column: 2/4;
-    grid-row: 10/12;
+    grid-row: 9;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    font-family: Arimo;
+    width: fit-content;
     border: 1px solid black;
 }
 #spotlight h2{
@@ -238,9 +245,6 @@ iframe{
     margin: 0 auto;
     max-width: 90%;
     max-height: auto;
-}
-#photo-box img:hover{
-    transform: scale(1.05);
 }
 .image-caption{
     color: #cdd1c4ff;

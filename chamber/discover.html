@@ -34,6 +34,14 @@
     <nav>
     </nav>
     <main>
+        <div id="calendar-box">
+            <iframe src="https://calendar.google.com/calendar/embed?height=320&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=YWJiNDc0NGVhMWZjNmRjN2ViNjkwNzM4NTE3Y2M0MGYyZDA0MjlkNjBhNDdlYTRiZDdjYTQ2NGFmZmNmODE4MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23F4511E&color=%230B8043" 
+            style="border:solid 1px #30323dff" width="320" height="290" frameborder="0" scrolling="no"></iframe>
+            <!-- aspect ratio is 1.33 -->
+        </div>
+        <div id="days-message">
+            <p id="message"></p>
+        </div>
         <div id="upcoming">
             <h3>Upcoming Events</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis nihil praesentium asperiores autem atque, ducimus veniam voluptatibus. Quaerat voluptatibus fugiat a laboriosam rem consectetur eos culpa accusamus nobis maiores!</p>
@@ -43,17 +51,10 @@
             <source media="(max-width: 340px)" srcset="images/fall-williamsburg-small.webp">
             <img src="images/fall-williamsburg-small.webp" alt="Duke of Gloucester Street in the Fall" loading="lazy">
         </div>
-        <div id="days-message">
-        </div>
-        <div id="calendar-box">
-            <iframe src="https://calendar.google.com/calendar/embed?height=320&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=YWJiNDc0NGVhMWZjNmRjN2ViNjkwNzM4NTE3Y2M0MGYyZDA0MjlkNjBhNDdlYTRiZDdjYTQ2NGFmZmNmODE4MkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23F4511E&color=%230B8043" 
-            style="border:solid 1px #30323dff" width="320" height="290" frameborder="0" scrolling="no"></iframe>
-            <!-- aspect ratio is 1.33 -->
-        </div>
         <div id="photo-box">
             <source media="(max-width: 340px)" srcset="images/red-house-small.webp">
             <img src="images/red-house.webp" alt="Red brick house in Colonial Williamsburg" loading="lazy" width="600" max-height="338">
-            <h2 class="image-caption">The Corner Store in Doctor Carter’s Brick House, Colonial Williamsburg</h2>
+            <h2 class="image-caption">Doctor Carter’s Brick House, Colonial Williamsburg</h2>
             <source media="(max-width: 340px)" srcset="images/beef-trencher-small.webp">
             <img src="images/beef-trencher.webp" alt="Beef Trencher from Chowning's Tavern" loading="lazy" width="600" max-height="338">
             <h2 class="image-caption">Beef Trencher From Chowning's Tavern, Colonial Williamsburg</h2>
@@ -79,5 +80,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/toggleButtons.js"></script>
+    <script src="scripts/lengthSinceVisit.js"></script>
 </body>
 </html>

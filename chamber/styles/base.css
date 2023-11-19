@@ -94,7 +94,7 @@ nav a:hover{
 main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(20,1fr);
+    grid-template-rows: repeat(20,auto);
 }
 
 #hero-img{
@@ -115,6 +115,7 @@ p{
     font-family: Arimo;
     font-size: 150%;
     margin: 0 auto;
+    margin-top: 5%;
 }
 #current-event{
     grid-column: 2/4;
@@ -150,11 +151,40 @@ p{
     font-family: Arimo;
     color: #30323dff;
 }
+#days-message{
+    grid-column: 2/4;
+    grid-row: 1;
+    margin-top: 10%;
+    margin-bottom: 100%;
+    height: fit-content;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+    font-family: Arimo;
+    color: #cdd1c4ff;
+    background-color: #4d5061ff;
+}
+#message{
+    font-family: Arimo;
+    font-size: 75%;
+    color: #cdd1c4ff;
+}
+#calendar-box{
+    grid-column: 2/4;
+    grid-row: 1;
+    margin-top: 65%;
+    padding-top: 5%;
+    font-size: 320px;
+    width: 1em;
+}
+iframe{
+    width: 100%;
+}
 #upcoming{
     background-color: #4d5061ff;
     grid-column: 2/4;
-    grid-row: 1/2;
-    margin-top: 5%;
+    grid-row: 2;
+    margin-top: 0%;
     text-align: center;
     border: 1px solid black;
 }
@@ -173,8 +203,8 @@ p{
     background-color: #4d5061ff;
     color: #cdd1c4ff;
     grid-column: 2/4;
-    grid-row: 2/3;
-    margin-top: 5%;
+    grid-row: 3;
+    margin-top: 25%;
     text-align: center; 
     border: 1px solid black;
     width: 100%;
@@ -183,37 +213,30 @@ p{
     font-family: Arimo;
     color: #cdd1c4ff;
     margin: 0 auto;
+    margin-top: 2%;
     margin-bottom: 5%;
     text-align: center;
 }
 #colonial-advert img{
     margin-top: 1%;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
     box-shadow: 5px 5px 15px #4d5061ff;
     max-width: 80%;
-}
-#calendar-box{
-    grid-column: 2/4;
-    grid-row: 4/5;
-    margin-top: 5%;
-    padding-top: 5%;
-    font-size: 320px;
-    width: 1em;
-}
-iframe{
-    width: 100%;
 }
 #photo-box{
     background-color: #4d5061ff;
     grid-column: 2/4;
     grid-row: 9/20;
-    margin: 3% 0 15% 5%;
+    margin-top: 25%;
+    margin-bottom: 15%;
     border: 1px solid black;
     width: 100%;
-    padding: 5%;
+    text-align: center;
 }
 #photo-box img{
-    max-width: 100%;
+    padding-top: 10%;
+    margin: 0 auto;
+    max-width: 90%;
     max-height: auto;
 }
 #photo-box img:hover{

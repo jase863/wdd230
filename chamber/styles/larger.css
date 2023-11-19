@@ -193,7 +193,7 @@
     }
     #photo-box img{
         max-width: 100%;
-        max-height: auto;
+        height: auto;
     }
     #photo-box img:hover{
         transform: scale(1.05);

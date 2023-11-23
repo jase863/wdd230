@@ -11,7 +11,7 @@ let daysPassed = (lastVisit - today) / msConversion;
 
 if (daysPassed !== 0){
 
-    if (daysPassed < 1){
+    if (daysPassed < 1 > 0){
 
         message.innerHTML = "Back so soon! Awesome!";
     } else if (daysPassed > 1){
@@ -21,4 +21,6 @@ if (daysPassed !== 0){
     message.innerHTML = "Welcome! Let us know if you have any questions!";
 }
 
-localStorage.setItem("daysSinceVisit", today);
+localStorage.setItem("daysSinceVisit", daysPassed);
+
+alert(daysPassed);

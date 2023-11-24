@@ -1,0 +1,42 @@
+:root{
+    --element-padding: .75rem;
+    --custom-radius: 10px;
+    --common-margin: 2rem;
+}
+
+form legend{
+    padding: 1rem .5rem;
+}
+
+form fieldset{
+    margin-top: var(--common-margin);
+    border-radius: var(--custom-radius);
+}
+form label{
+    display: block;
+    padding: var(--element-padding);
+}
+form label input{
+    display: block;
+    padding: var(--element-padding);
+    width: 100%;
+    max-width: 20rem;
+    border-radius: var(--custom-radius);
+}
+#submit{
+    margin: var(--common-margin) 0; 
+    padding: var(--element-padding);
+    border-radius: var(--custom-radius);
+    background-color: #184477;
+    color: white;
+}
+#confirmation{
+    width: 80%;
+    height: 10rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    padding: var(--element-padding);
+    text-align: center;
+    border: 2px solid #184477;
+}

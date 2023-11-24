@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jason Walker's forms assignment for the WDD 230 - Web Frontend Development class at Brigham Young University - Idaho">
+    <meta name="author" content="Jason Walker">
+    <title>Jason Walker Forms Page - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Open Graph meta properties -->
+    <meta property="og:title" content="Jason Walker - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jase863.github.io/wdd230/index.html">
+</head>
+<body>
+    <header>
+        <img id="profile" src="images/optimized-profile-pic.webp" alt="picture of Jason Walker in a 'Deutscher Fussball-Bund' jersey">
+        <h1>Jason Walker</h1>
+        <button id="menu"></button>
+        <button id="dark-mode"></button>
+    </header>
+    <nav>
+        <ul> 
+            <li id="home"><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="error-message"></div>
+        <form method="get" action="record.html">
+            <fieldset>
+                <Legend>Create an Account</Legend>
+                <div>*Denotes a Required Field</div>
+                <label>Username* <input type="text" name="username" id="username" required></label>
+                <label>Password* <input type="password" name="password" id="password" pattern="[0-9a-zA-Z]{8}" required></label>
+                <label>Confirm Password* <input type="password" id="confirm-password" name="confpassword" pattern="[0-9a-zA-Z]{8}" required></label>
+                <label>Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Rate Our Page</legend>
+                <div id="current-rating">0</div>
+                <label>Page Rating <input type="range" id="range" name="range" min="1" max="10" value="0" step="1" list="rangeValues"></label>
+                <datalist id = "rangeValues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Create My Account" id="submit">
+        </form>
+    </main>
+    <footer>
+        <p id="copyright">
+            &copy; Jason Walker Utah
+        </p>
+        <script src="scripts/getDates.js"></script>
+        <script src="scripts/formScript.js"></script>
+        <script src="scripts/toggleButtons.js"></script>
+        <p id="lastModified"></p>
+    </footer>
+</body>

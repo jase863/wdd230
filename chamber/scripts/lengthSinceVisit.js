@@ -1,13 +1,14 @@
 let message = document.getElementById("message");
 
 const msConversion = 86400000 ;
-const dateToday = new Date();
 
-const today = Date.now();
+const dateThen = new Date();
+
+const dateToday = Date.now();
 
 let lastVisit = Number(window.localStorage.getItem("daysSinceVisit")) || 0;
 
-let daysPassed = (today/msConversion)-(lastVisit/msConversion);
+let daysPassed = (dateToday/msConversion)-(lastVisit/msConversion);
 
 if (daysPassed !== 0){
 
@@ -30,4 +31,4 @@ if (daysPassed !== 0){
     message.innerHTML = "Welcome! Let us know if you have any questions!";
 }
 
-localStorage.setItem("daysSinceVisit", today);
+localStorage.setItem("daysSinceVisit", dateToday);

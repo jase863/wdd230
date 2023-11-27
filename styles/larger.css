@@ -65,7 +65,7 @@ main{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto auto auto 1fr;
+    grid-template-rows: repeat(4, auto);
     width: 90%;
 }
 .mode{

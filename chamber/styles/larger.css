@@ -18,7 +18,7 @@
         padding-left: 40%;
         top: 15%;
     }
-    ul{
+    nav ul{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -46,7 +46,7 @@
     main{
         display: grid;
         grid-template-columns: repeat(12,1fr);
-        grid-template-rows: repeat(3,auto) auto;
+        grid-template-rows: repeat(4,auto);
     }
 
     #hero-img{
@@ -216,5 +216,78 @@
         color: #cdd1c4ff;
         font-family: Lato;
         font-size: 100%;
+    }
+    :root{
+        --element-padding: .75rem;
+        --custom-radius: 10px;
+        --common-margin: 2rem;
+        --bold: bold;
+        --text-color: rgb(15, 11, 11);
+        --form-text: "Arimo";
+    }
+    form{
+        grid-column: 2/7;
+        grid-row: 1/5;
+        margin: var(--common-margin);
+        font-family: var(--form-text);
+        font-size: 16px;
+        width: 100%;
+        max-width: 35rem;
+    }
+    #submit{
+        text-align: center;
+        margin: var(--common-margin) 0;
+        border-radius: var(--custom-radius);
+        background-color: #184477;
+        color: white;
+        font-family: var(--form-text);
+        font-size: 16px;
+    }
+    #business-levels{
+        grid-column: 8/12;
+        grid-row: 1/5;
+        border: 1px solid black;  
+        border-radius: var(--custom-radius);
+        width: 100%;
+        height: fit-content;
+        margin: var(--common-margin);
+        margin-top: 5.5rem;
+        background-color: #4d5061ff;
+        color: #cdd1c4ff;
+    }
+    #business-levels h2{
+        text-align: center;
+    }
+    #level-description{
+        font-family: var(--form-text);
+        list-style-type: disc;
+        margin-left: 1rem;
+        font-size: 20px;
+    }
+    #level-description li{
+        list-style-type: disc;
+        padding: .5rem;
+    }
+    #level-description li:last-child{
+        margin-bottom: var(--common-margin);
+    }
+    #thanks{
+        grid-column: 5/10;
+        grid-row: 1;
+        margin: var(--common-margin);
+        color: #3F5479;
+        font-family: var(--form-text);
+        font-size: 30px;
+        text-align: center;
+    }
+     #thanks-div{
+        grid-column: 5/10;
+        grid-row: 2/6;
+        margin: .25rem;
+        margin-bottom: 5rem;
+        color: #3F5479;
+        font-family: var(--form-text);
+        font-size: 30px;
+        text-align: center;
     }
 }

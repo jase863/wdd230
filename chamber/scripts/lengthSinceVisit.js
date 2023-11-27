@@ -4,11 +4,11 @@ const msConversion = 86400000 ;
 
 const dateThen = new Date();
 
-const dateToday = Date.now();
+const dateToday = dateThen.getMilliseconds();
 
 let lastVisit = Number(window.localStorage.getItem("daysSinceVisit")) || 0;
 
-let daysPassed = (dateToday/msConversion)-(lastVisit/msConversion);
+let daysPassed = (dateToday/msConversion)-(lastVisit/msConversion) || 0;
 
 if (daysPassed !== 0){
 

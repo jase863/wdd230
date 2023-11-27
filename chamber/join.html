@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Williamsburg Chamber of Commerce</title>
+    <meta name="description" content="Chamber of Commerce page for Williamsburg, Virginia. This is part of a school project for WDD230.">
+    <meta name="author" content="Jason Walker">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel= "stylesheet" href="styles/base.css">
+    <link rel= "stylesheet" href="styles/larger.css">
+<!-- Open Graph meta properties -->
+    <meta property="og:title" content="Jason Walker - WDD 230 - Williamsburg Chamber of Commerce Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.pexels.com/photos/577792/pexels-photo-577792.png">
+    <meta property="og:url" content="https://jase863.github.io/wdd230/chamber/index.html">
+
+</head>
+<body onload="getTimestamp(event)">
+    <header>
+        <h1>Williamsburg Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <img id="logo" src="images/wcc-logo.jpg" alt="Logo for the Chamber of Commerce">
+        <nav>
+            <ul> 
+                <li id="home"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discovery</a></li>
+                <li><a href="directory">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset id="personal">
+                <legend>Your Information</Legend>
+                    <div>*Denotes a Required Field</div>
+                    <label>First Name*<input type="text" name="fname" id="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" id="lname" required></label>
+                    <label>Job Title<input type="text" name="position" id="position" pattern="[a-zA-Z\s-]{7}"></label>
+                    <label>Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="example@gmail.com"></label>
+                    <label>Mobile Phone*<input type="tel" required name="mobile-phone" id="cell-phone"></label>
+            </fieldset>
+
+            <fieldset id="business">
+                <legend>Business Information</legend>
+                    <div>*Denotes a Required Field</div>
+                    <label>Business Name*<input type="text" name="business-name" id="business-name" required></label>
+                    <div id="membership">Membership Level</div>
+                    <label class="mlevel"><input type="radio" name="membership" value="np"> NP (Non-Profit)</label>
+                    <label class="mlevel"><input type="radio" name="membership" value="bronze"> Bronze</label>
+                    <label class="mlevel"><input type="radio" name="membership" value="silver"> Silver</label>
+                    <label class="mlevel"><input type="radio" name="membership" value="gold"> Gold</label>
+                    <label>Business Description<textarea name="description" id="biz-description" cols="30" rows="7" maxlength="200"></textarea></label>
+                    <label><input type="hidden" name="timestamp" id="timeStamp" value=""></label>
+            </fieldset>
+            <input type="submit" value="Apply to Join" id="submit">
+        </form>
+        <div id="business-levels">
+            <h2>Membership Levels</h2>
+            <ul id="level-description">
+                <li>NP (Non-Profit)
+                    <ul>
+                        <li>No Fee</li>
+                        <li class="last-child">Special Events For All Members</li>  
+                    </ul>
+                </li>
+                <li>Bronze
+                    <ul>
+                        <li>$50 Annual Fee
+                        <li>All Benefits of Previous Level</li>
+                        <li>Trainings To Boost Your Business</li>
+                    </ul>
+                </li>
+                <li>Silver
+                    <ul>
+                        <li>$150 Annual Fee</li>
+                        <li>All Benefits of Previous Levels</li>
+                        <li>One Month of Advertising For Your Business On Our Site</li>
+                        <li>Event Discounts</li>
+                    </ul>
+                </li>
+                <li>Gold
+                    <ul>
+                        <li>$250 Annual Fee</li>
+                        <li>All Benefits of Previous Levels</li>
+                        <li>Two Additional Months of Advertising On Our Site</li>
+                        <li>Exclusive Workshops</li>
+                        <li>Annual Dinenr For Two Members of Upper Management at King's Arms Tavern in Colonial Wililamsburg.</li>
+                        <li>Monthly 
+                            Business Insights</li>
+                    </ul>
+                </li>
+            </ul>
+                
+        </div>
+    </main>
+    <footer>
+        <p>Contact: wal23002@byui.edu</p>
+        <p id="copyright"></p>
+        <p>This is a project for WDD230, offered at Brigham Young University-Idaho.</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/toggleButtons.js"></script>
+    <script>
+        function getTimestamp() {
+            let timestamp = event.timeStamp;
+            document.getElementById("timeStamp").value = timestamp;
+        }
+    </script>
+</body>
+</html>

@@ -3,6 +3,10 @@
     --custom-radius: 10px;
     --common-margin: 2rem;
 }
+#error-message{
+    margin: var(--common-margin);
+    color: #9c2c13;
+}
 
 form legend{
     padding: 1rem .5rem;
@@ -11,17 +15,27 @@ form legend{
 form fieldset{
     margin-top: var(--common-margin);
     border-radius: var(--custom-radius);
+    width: 30%;
+}
+fieldset div{
+    color: #9c2c13;
+    padding-left: var(--element-padding);
 }
 form label{
+    color: #184477;
     display: block;
     padding: var(--element-padding);
 }
 form label input{
+    color: #184477;
     display: block;
     padding: var(--element-padding);
     width: 100%;
     max-width: 20rem;
     border-radius: var(--custom-radius);
+}
+#email{
+    margin-bottom: .5rem;
 }
 #submit{
     margin: var(--common-margin) 0; 

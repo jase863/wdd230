@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: #184477;
+}
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 0.25rem;
+    padding: 0.35rem;
+    border: 1px solid white;
+}
+section{
+    margin: .25rem;
+    padding: .75rem;
+    background-color: lightslategray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+

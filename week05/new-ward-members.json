@@ -1,0 +1,23 @@
+{
+  "familyName" : "Walker",
+  "dateMovedIn" : 2022,
+  "numberOfFamily" : 3,
+  "bishopricVisit" : false,
+  "familyMembers" : [
+    {
+        "name" : "Jason",
+        "gender" : "male",
+        "birthdate" : "09/19/1995"
+    },
+    {
+        "name" : "Kali",
+        "gender" : "female",
+        "birthdate" : "03/14/2001"
+    },
+    {
+        "name" : "Klara",
+        "gender" : "female",
+        "birthdate": "08/12/2023"
+    }
+  ]
+}

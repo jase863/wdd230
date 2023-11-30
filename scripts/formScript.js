@@ -8,17 +8,15 @@ passwordConfirm.addEventListener("focusout", ()=> {
 
         errorMessage.textContent = "Passwords do not match! Try entering your password again.";
 
-        password.focus();
-
         password.value="";
 
         passwordConfirm.value="";
 
+        password.focus();
+
 
     } else {
-        errorMessage.style.display = "none"
-
-        password.blur();
+        errorMessage.style.display = "none";
     }
 });
 

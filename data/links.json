@@ -1,0 +1,111 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url":"week01/holygrail.html",
+                    "title":"HG Layout"
+                },
+                {
+                    "url":"week01/media-query.html",
+                    "title":"mQueries"
+                },
+                {
+                    "url":"week01/js-pen.html",
+                    "title":"JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url":"week02/design.html",
+                    "title":"Design Principles"
+                },
+                {
+                    "url":"https://codepen.io/jase863/pen/BaMWErd",
+                    "title":"Codepen"
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"BOM Faves App"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url":"week03/images/landscape.webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy Loading"
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title":"Responsive Images"
+                },
+                {
+                    "url":"week03/bom.html",
+                    "title":"BOM Favorite Chapters"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url":"https://codepen.io/jase863/pen/PoVRvrr",
+                    "title":"CSS Pseudo-Classes"
+                },
+                {
+                    "url":"week04/images/w3schools-exercises.jpg",
+                    "title":"W3Schools Exercises"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"Table Build"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url":"https://codepen.io/jase863/pen/PoVBdRN",
+                    "title":"CSS Pseudo Elements"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"Prophets"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url":"https://codepen.io/jase863/pen/PoVBdRN",
+                    "title":"CSS Pseudo Elements"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"Prophets"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"Weather"
+                }
+            ]
+        }
+    ]
+  }
+  

@@ -1,6 +1,6 @@
 const weather = document.querySelector('#weather');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=792c40ba8e4c311347a688df4de2ee45"
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=41.16&lon=-112.06&units=imperial&appid=792c40ba8e4c311347a688df4de2ee45"
 async function apiFetch(){
     try{
     response = await fetch(url);

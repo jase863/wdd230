@@ -174,17 +174,19 @@ h2{
 }
 .card{
     display: block;
-    width: 90%;
+    width: fit-content;
+    max-width: 80%;
     margin: 0 auto;
     margin-bottom: 5%;
     border: solid gray;
 }
 
 #weather{
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 1rem;
-
+    width: fit-content;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    margin-right: 1rem;
+    margin-top: .75rem;
 }
 #visits{
     margin-top: 2rem;

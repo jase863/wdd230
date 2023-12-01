@@ -115,9 +115,17 @@ h2{
 .card li{
     margin-left: 0;
     font-size: 150%;
+    padding-bottom: .75rem;
 }
 div{
     font-size: 150%;
+}
+#weather{
+    padding-right: 20rem;
+    width: 65%;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+    justify-content: center;
 }
 iframe{
     grid-column: 1/2;

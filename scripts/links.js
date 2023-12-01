@@ -9,8 +9,6 @@ async function getLinks() {
 
     const data = await response.json();
 
-    console.table(data.weeks);
-
     displayLinks(data.weeks);
     
 }

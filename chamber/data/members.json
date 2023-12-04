@@ -9,7 +9,8 @@
                     "url":"https://www.colonialwilliamsburg.org/",
                     "icon":"images/cw-logo.webp",
                     "memberLevel":"Non-Profit",
-                    "memberYears":"10"
+                    "memberYears":"10",
+                    "id": "colonial-shop"
                 }
             ]
         },
@@ -22,7 +23,8 @@
                     "url":"https://www.colonialwilliamsburghotels.com",
                     "icon":"images/chownings-icon.webp",
                     "memberLevel":"Gold",
-                    "memberYears":"4"
+                    "memberYears":"4",
+                    "id": "chowning-shop"
                 }
             ]
         },
@@ -35,7 +37,8 @@
                     "url":"https://www.duckdonuts.com",
                     "icon":"images/duck-donuts-logo.webp",
                     "memberLevel":"Silver",
-                    "memberYears":"2"
+                    "memberYears":"2",
+                    "id": "duck-shop"
                 }
             ]
         },
@@ -48,7 +51,8 @@
                     "url":"https://buschgardens.com/williamsburg",
                     "icon":"images/busch-logo.webp",
                     "memberLevel":"Gold",
-                    "memberYears":"6"
+                    "memberYears":"6",
+                    "id": "busch-shop"
                 }
             ]
         },
@@ -61,7 +65,8 @@
                     "url":"https://www.extraholidays.com/williamsburg-virginia/wyndham-kingsgate",
                     "icon":"images/wyndham.webp",
                     "memberLevel":"Gold",
-                    "memberYears":"3"
+                    "memberYears":"3",
+                    "id": "club-shop"
                 }
             ]
         },
@@ -74,7 +79,8 @@
                     "url":"https://capitolpancakehouse.wordpress.com",
                     "icon":"images/pancake.webp",
                     "memberLevel":"Bronze",
-                    "memberYears":"4"
+                    "memberYears":"4",
+                    "id": "capitol-shop"
                 }
             ]
         },
@@ -87,7 +93,8 @@
                     "url":"https://williamsburgshops.com/wallaces-trading-post",
                     "icon":"images/wtp-logo.webp",
                     "memberLevel":"Bronze",
-                    "memberYears":"2"
+                    "memberYears":"2",
+                    "id": "wallace-shop"
                 }
             ]
         }

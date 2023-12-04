@@ -22,12 +22,11 @@ function displayLinks(businesses) {
         let shopName = business.name;
         let infos = business.info;
 
-        shopList.textContent = shopName;
-
         infos.forEach((info) =>{
 
             // creating elements for dynamic list
             let iconImage = document.createElement("img");
+            let nameh3 = document.createElement("h3");
             let linkAnchor = document.createElement("a");
             let addressP = document.createElement("p");
             let phoneP = document.createElement("p");
@@ -43,6 +42,7 @@ function displayLinks(businesses) {
             let memberYears = info.memberYears;
 
             // element attributes for html document
+            nameh3.textContent = shopName;
             iconImage.src = icon;
             iconImage.alt = `image of the ${shopName} logo`;
             linkAnchor.href = (url);
@@ -54,6 +54,7 @@ function displayLinks(businesses) {
 
             // appending to main list item
             shopList.appendChild(iconImage);
+            shopList.appendChild(nameh3);
             shopList.appendChild(linkAnchor);
             shopList.appendChild(addressP);
             shopList.appendChild(phoneP);

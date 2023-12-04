@@ -280,7 +280,7 @@
         font-size: 30px;
         text-align: center;
     }
-     #thanks-div{
+    #thanks-div{
         grid-column: 5/10;
         grid-row: 2/6;
         margin: .25rem;
@@ -289,5 +289,16 @@
         font-family: var(--form-text);
         font-size: 30px;
         text-align: center;
+    }
+    #businesses li{
+        font-family: lato;
+        font-size: 1.1rem;
+        color: #30323dff;
+        list-style: none;
+    }
+    #businesses p{
+        font-family: lato;
+        font-size: 1.1rem;
+        color: #30323dff;
     }
 }

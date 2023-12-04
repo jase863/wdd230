@@ -1,7 +1,7 @@
 const baseURL = "https://jase863.github.io/wdd230/chamber/index.html";
 const linksURL = "https://jase863.github.io/wdd230/chamber/data/members.json";
 
-const activities = document.getElementById('activities');
+const shops = document.getElementById('businesses');
 
 async function getLinks() {
 
@@ -16,34 +16,32 @@ async function getLinks() {
 
 getLinks();
 
-function displayLinks(weeks) {
-    weeks.forEach((week) => {
-        let weeksList = document.createElement("li");
-        let weekNum = week.name;
-        let links = week.info
+function displayLinks(businesses) {
+    businesses.forEach((business) => {
+        let shopList = document.createElement("li");
+        let shopName = business.name;
+        let infos = business.info;
 
-        weeksList.textContent = `${weekNum}: `;
+        shopList.textContent = `${shopName}: `;
 
-        links.forEach((link) =>{
+        infos.forEach((info) =>{
 
+            let iconImage = document.createElement("img")
             let linkAnchor = document.createElement("a");
-            let address = link.address;
-            let phone = link.phone;
 
-            linkAnchor.href = (address);
+            let url = info.url;
+            let icon = info.icon;
+            let phone = info.phone;
 
-            if (link != links[links.length - 1]){
+            iconImage.src = `${icon}`;
+            iconImage.alt = `image of the ${shopName} logo`;
+            linkAnchor.href = (url);
+            linkAnchor.innerHTML = `${url}`;
 
-                linkAnchor.innerHTML = `${linkTitle} | `;
-
-            } else{
-                linkAnchor.innerHTML = `${linkTitle}`
-            }
-            
-
-            weeksList.appendChild(linkAnchor);
+            shopList.appendChild(linkAnchor);
+            shopList.appendChild(iconImage);
         })
 
-        activities.appendChild(weeksList);
+        shops.appendChild(shopList);
     });
 }

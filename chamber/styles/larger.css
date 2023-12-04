@@ -290,15 +290,96 @@
         font-size: 30px;
         text-align: center;
     }
-    #businesses li{
-        font-family: lato;
-        font-size: 1.1rem;
-        color: #30323dff;
-        list-style: none;
+    /*
+main 
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(10,auto); */
+    #businesses{
+        display: block;
+    }
+    #switch-view{
+        grid-column: 2/4;
+        grid-row: 1;
+        height:fit-content;
+        width: fit-content;
+        margin: 1rem auto;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: .75rem;
+        background-color: #3F5479;
+        text-align: center;
+    }
+    #switch-view button{
+        padding: 1rem;
+        font-weight: 700;
     }
     #businesses p{
         font-family: lato;
         font-size: 1.1rem;
+    }
+    .grid-view{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(auto, 300px));
+        gap: 10px;
+    }
+    .grid-view li{
+        height: 530px;
+        width: 300px;
+        text-align: center;
+        font-family: lato;
+        font-size: 1.1rem;
+        color: #cdd1c4ff;
+        list-style: none;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 1.6rem;
+        background-color: #4d5061ff;
+        margin: 0 auto;
+    }
+    .grid-view img{
+        max-height: 270px;
+        width: auto;
+    }
+    .grid-view p{
+        color: #cdd1c4ff;
+        text-align: center;
+    }
+    .grid-view a{
+        color: #cdd1c4ff;
+        text-align: center;
+    }
+    .grid-view div{
+        text-align: center;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list li{
+        width: fit-content;
+        text-align: center;
+        font-family: lato;
+        font-size: 1.1rem;
+        list-style: none;
+        margin: var(--common-margin);
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        padding: 0;
+        background-color: #30323dff;
+        color: #cdd1c4ff;
+    }
+    .list img {
+        display: none;
+    }
+    .list li:nth-child(odd){
+        background-color: #cdd1c4ff;
         color: #30323dff;
+        grid-column: 1;
+    }
+    .list li:nth-child(even) a{
+        color: #cdd1c4ff;
+        grid-column: 1;
+    }
+    .list li:nth-child(even) p{
+        color: #cdd1c4ff;
     }
 }

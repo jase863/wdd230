@@ -399,6 +399,33 @@ font-family: var(--form-text);
 font-size: 20px;
 text-align: center;
 }
+
+/*
+main 
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(10,auto); */
+#switch-view{
+    margin: 1rem auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #3F5479;
+    text-align: center;
+}
+#switch-view button{
+    padding: 1rem;
+    font-weight: 700;
+}
+.grid-view{
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+.grid-view li{
+    text-align: center;
+    height: 600px;
+    width: auto;
+}
 #businesses img{
     max-height: 270px;
     width: auto;

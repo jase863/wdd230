@@ -1,91 +1,91 @@
 {
     "businesses": [
         {
-            "icon":"images/cw-logo.webp",
+            "name": "Colonial Williamsburg",
             "info": [
                 {
-                    "name": "Colonial Williamsburg",
                     "address":"101 Visitor Center Drive",
                     "phone":"(888) 965-7254",
                     "url":"https://www.colonialwilliamsburg.org/",
+                    "icon":"images/cw-logo.webp",
                     "memberLevel":"Non-Profit",
                     "memberYears":"10"
                 }
             ]
         },
         {
-            "icon":"images/chownings-icon.webp",
+            "name": "Chowning's Tavern",
             "info": [
                 {
                     "address":"109 Duke of Gloucester Street, Williamsburg, VA 23185",
                     "phone":"(855) 270-5114",
                     "url":"https://www.colonialwilliamsburghotels.com",
-                    "name": "Chowning's Tavern",
+                    "icon":"images/chownings-icon.webp",
                     "memberLevel":"Gold",
                     "memberYears":"4"
                 }
             ]
         },
         {
-            "icon":"images/duck-donuts-logo.webp",
+            "name": "Duck Donuts",
             "info": [
                 {
                     "address":"4655 Monticello Ave #103, Williamsburg, VA 23188",
                     "phone":"(757) 258-3825",
                     "url":"https://www.duckdonuts.com/williamsburg/",
-                    "name": "Duck Donuts",
+                    "icon":"images/duck-donuts-logo.webp",
                     "memberLevel":"Silver",
                     "memberYears":"2"
                 }
             ]
         },
         {
-            "icon":"images/busch-logo.webp",
+            "name": "Busch Gardens",
             "info": [
                 {
                     "address":"1 Busch Gardens Blvd, Williamsburg, VA 23185",
                     "phone":"(757) 229-4386",
                     "url":"https://buschgardens.com/williamsburg",
-                    "name": "Busch Gardens",
+                    "icon":"images/busch-logo.webp",
                     "memberLevel":"Gold",
                     "memberYears":"6"
                 }
             ]
         },
         {
-            "icon":"images/wyndham.webp",
+            "name": "Club Wyndham Kingsgate",
             "info": [
                 {
                     "address":"619 Georgetown Crescent, Williamsburg, VA 23185",
                     "phone":"(757) 220-5702",
                     "url":"https://www.extraholidays.com/williamsburg-virginia/wyndham-kingsgate",
-                    "name": "Club Wyndham Kingsgate",
+                    "icon":"images/wyndham.webp",
                     "memberLevel":"Gold",
                     "memberYears":"3"
                 }
             ]
         },
         {
-            "icon":"images/pancake.webp",
+            "name": "Capitol Pancake House",
             "info": [
                 {
                     "address":"802 Capitol Landing Rd, Williamsburg, VA 23185",
                     "phone":"(757) 564-1238",
                     "url":"https://capitolpancakehouse.wordpress.com",
-                    "name": "Capitol Pancake House", 
+                    "icon":"images/pancake.webp",
                     "memberLevel":"Bronze",
                     "memberYears":"4"
                 }
             ]
         },
         {
-            "icon":"images/wtp-logo.webp",
+            "name": "Wallace's Trading Post",
             "info": [
                 {
                     "address":"1851 Richmond Rd., Williamsburg, VA 23185",
                     "phone":"(757) 564-6101",
                     "url":"https://williamsburgshops.com/wallaces-trading-post",
-                    "name": "Wallace's Trading Post",
+                    "icon":"images/wtp-logo.webp",
                     "memberLevel":"Bronze",
                     "memberYears":"2"
                 }

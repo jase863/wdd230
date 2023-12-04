@@ -22,24 +22,43 @@ function displayLinks(businesses) {
         let shopName = business.name;
         let infos = business.info;
 
-        shopList.textContent = `${shopName}: `;
+        shopList.textContent = shopName;
 
         infos.forEach((info) =>{
 
-            let iconImage = document.createElement("img")
+            // creating elements for dynamic list
+            let iconImage = document.createElement("img");
             let linkAnchor = document.createElement("a");
+            let addressP = document.createElement("p");
+            let phoneP = document.createElement("p");
+            let levelP = document.createElement("p");
+            let yearsP = document.createElement("p");
 
+            // variables for different json elements
+            let address = info.address;
+            let phone = info.phone;
             let url = info.url;
             let icon = info.icon;
-            let phone = info.phone;
+            let memberLevel = info.memberLevel;
+            let memberYears = info.memberYears;
 
-            iconImage.src = `${icon}`;
+            // element attributes for html document
+            iconImage.src = icon;
             iconImage.alt = `image of the ${shopName} logo`;
             linkAnchor.href = (url);
             linkAnchor.innerHTML = `${url}`;
+            addressP.textContent = address;
+            phoneP.textContent = phone;
+            levelP.textContent = memberLevel;
+            yearsP.textContent = `${memberYears} years as a member`
 
-            shopList.appendChild(linkAnchor);
+            // appending to main list item
             shopList.appendChild(iconImage);
+            shopList.appendChild(linkAnchor);
+            shopList.appendChild(addressP);
+            shopList.appendChild(phoneP);
+            shopList.appendChild(levelP);
+            shopList.appendChild(yearsP);
         })
 
         shops.appendChild(shopList);

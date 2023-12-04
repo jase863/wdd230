@@ -318,19 +318,19 @@ grid-template-rows: repeat(10,auto); */
     }
     .grid-view{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(auto, 300px));
-        gap: 10px;
+        grid-template-columns: repeat(auto-fit, 350px);
+        gap: 15px;
     }
     .grid-view li{
         height: 530px;
         width: 300px;
         text-align: center;
         font-family: lato;
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: #cdd1c4ff;
         list-style: none;
         border: 1px solid rgba(0, 0, 0, 0.1);
-        padding: 1.6rem;
+        padding: 1.5rem;
         background-color: #4d5061ff;
         margin: 0 auto;
     }
@@ -355,31 +355,50 @@ grid-template-rows: repeat(10,auto); */
     }
 
     .list li{
-        width: fit-content;
-        text-align: center;
+        height: fit-content;
+        width: 88%;
+        text-align: left;
         font-family: lato;
         font-size: 1.1rem;
         list-style: none;
-        margin: var(--common-margin);
+        margin-left: 2rem;
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
-        padding: 0;
         background-color: #30323dff;
         color: #cdd1c4ff;
+        border: none;
+        padding: var(--common-margin);
     }
     .list img {
         display: none;
     }
     .list li:nth-child(odd){
+        width: 90%;
         background-color: #cdd1c4ff;
         color: #30323dff;
-        grid-column: 1;
+        padding-right: 10px;
+    }
+    .list li:nth-child(odd) a{
+        text-align: left;
+        color: #30323dff;
+        padding-right: 7rem;
+    }
+    .list li:nth-child(odd) p{
+        width: auto;
+        text-align: left;
+        color: #30323dff;
+        padding-right: 5rem;
     }
     .list li:nth-child(even) a{
+        width: fit-content;
+        text-align: left;
+        background-color: #30323dff;
         color: #cdd1c4ff;
-        grid-column: 1;
+        padding-right: 7rem;
     }
     .list li:nth-child(even) p{
+        text-align: left;
         color: #cdd1c4ff;
+        padding-right: 3rem;
     }
 }

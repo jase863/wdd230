@@ -5,7 +5,7 @@
             "info": [
                 {
                     "address":"101 Visitor Center Drive",
-                    "phone Number":"(888) 965-7254",
+                    "phone":"(888) 965-7254",
                     "url":"https://www.colonialwilliamsburg.org/",
                     "icon":"chamber/images/cw-logo.webp",
                     "memberLevel":"Non-Profit",
@@ -18,7 +18,7 @@
             "info": [
                 {
                     "address":"109 Duke of Gloucester Street, Williamsburg, VA 23185",
-                    "phone Number":"(855) 270-5114",
+                    "phone":"(855) 270-5114",
                     "url":"https://www.colonialwilliamsburghotels.com",
                     "icon":"chamber/images/chownings-icon.webp",
                     "memberLevel":"Gold",
@@ -31,7 +31,7 @@
             "info": [
                 {
                     "address":"4655 Monticello Ave #103, Williamsburg, VA 23188",
-                    "phone Number":"(757) 258-3825",
+                    "phone":"(757) 258-3825",
                     "url":"https://www.duckdonuts.com/williamsburg/",
                     "icon":"chamber/images/duck-donuts-logo.webp",
                     "memberLevel":"Silver",
@@ -44,7 +44,7 @@
             "info": [
                 {
                     "address":"1 Busch Gardens Blvd, Williamsburg, VA 23185",
-                    "phone Number":"(757) 229-4386",
+                    "phone":"(757) 229-4386",
                     "url":"https://buschgardens.com/williamsburg",
                     "icon":"chamber/images/busch-logo.webp",
                     "memberLevel":"Gold",
@@ -57,7 +57,7 @@
             "info": [
                 {
                     "address":"619 Georgetown Crescent, Williamsburg, VA 23185",
-                    "phone Number":"(757) 220-5702",
+                    "phone":"(757) 220-5702",
                     "url":"https://www.extraholidays.com/williamsburg-virginia/wyndham-kingsgate",
                     "icon":"chamber/images/wyndham.webp",
                     "memberLevel":"Gold",
@@ -70,7 +70,7 @@
             "info": [
                 {
                     "address":"802 Capitol Landing Rd, Williamsburg, VA 23185",
-                    "phone Number":"(757) 564-1238",
+                    "phone":"(757) 564-1238",
                     "url":"https://capitolpancakehouse.wordpress.com",
                     "icon":"chamber/images/pancake.webp",
                     "memberLevel":"Bronze",
@@ -83,7 +83,7 @@
             "info": [
                 {
                     "address":"1851 Richmond Rd., Williamsburg, VA 23185",
-                    "phone Number":"(757) 564-6101",
+                    "phone":"(757) 564-6101",
                     "url":"https://williamsburgshops.com/wallaces-trading-post",
                     "icon":"chamber/images/wtp-logo.webp",
                     "memberLevel":"Bronze",

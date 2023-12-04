@@ -1,7 +1,7 @@
 const baseURL = "https://jase863.github.io/wdd230/chamber/index.html";
 const linksURL = "https://jase863.github.io/wdd230/chamber/data/members.json";
 
-const shops = document.getElementById('businesses');
+const shops = document.querySelector('#businesses ul');
 
 async function getLinks() {
 
@@ -49,7 +49,7 @@ function displayLinks(businesses) {
             linkAnchor.innerHTML = `${url}`;
             addressP.textContent = address;
             phoneP.textContent = phone;
-            levelP.textContent = memberLevel;
+            levelP.textContent = `${memberLevel} level`;
             yearsP.textContent = `${memberYears} years as a member`
 
             // appending to main list item
@@ -65,3 +65,19 @@ function displayLinks(businesses) {
         shops.appendChild(shopList);
     });
 }
+
+const gridbutton = document.querySelector("#grid-view");
+const listbutton = document.querySelector("#list-view");
+const display = document.querySelector(".grid-view");
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", () =>{
+
+	display.classList.add("list");
+	display.classList.remove("grid");
+});
+

@@ -10,6 +10,7 @@ async function getLinks() {
     const data = await response.json();
 
     displayLinks(data.weeks);
+
     
 }
 

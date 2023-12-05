@@ -390,7 +390,7 @@ grid-template-rows: repeat(10,auto); */
     }
     .list li{
         height: fit-content;
-        width: 88%;
+        width: 113%;
         font-family: lato;
         text-align: left;
         font-size: 1.1rem;
@@ -402,6 +402,7 @@ grid-template-rows: repeat(10,auto); */
         color: #cdd1c4ff;
         border: none;
         padding: var(--common-margin);
+        margin-left: 0;
     }
     .list h3{
         width: fit-content;
@@ -418,13 +419,11 @@ grid-template-rows: repeat(10,auto); */
         padding-right: 1rem;
     }
     .list li:nth-child(odd) p{
-        width: fit-content;
         text-align: center;
         color: #30323dff;
         padding-right: 1rem;
     }
     .list li:nth-child(even) a{
-        width: fit-content;
         text-align: center;
         background-color: #30323dff;
         color: #cdd1c4ff;

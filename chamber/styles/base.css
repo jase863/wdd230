@@ -504,7 +504,6 @@ text-align: center;
     color: #cdd1c4ff;
     border: none;
     margin-left: -2.4rem;
-    justify-content: center;
 }
 .list h3{
     width: 100%;
@@ -531,7 +530,6 @@ text-align: center;
     text-align: center;
     background-color: #30323dff;
     color: #cdd1c4ff;
-    text-align: center;
 }
 .list li:nth-child(even) p{
     color: #cdd1c4ff;

@@ -9,6 +9,8 @@ async function getLinks() {
 
     const data = await response.json();
 
+    console.log(data);
+
     displayLinks(data.businesses);
 
     
@@ -21,6 +23,7 @@ function displayLinks(businesses) {
         let shopList = document.createElement("li");
         let shopName = business.name;
         let infos = business.info;
+        let imageContainer = document.createElement("div");
 
         infos.forEach((info) =>{
 
@@ -42,18 +45,22 @@ function displayLinks(businesses) {
             let memberYears = info.memberYears;
 
             // element attributes for html document
+            shopList.id = info.id;
             nameh3.textContent = shopName;
             iconImage.src = icon;
             iconImage.alt = `image of the ${shopName} logo`;
             linkAnchor.href = (url);
-            linkAnchor.innerHTML = `${url}`;
+            linkAnchor.innerHTML = `${shopName} Website`;
             addressP.textContent = address;
             phoneP.textContent = phone;
-            levelP.textContent = `${memberLevel} level`;
-            yearsP.textContent = `${memberYears} years as a member`
+            levelP.textContent = `${memberLevel} Level Member`;
+            yearsP.textContent = `${memberYears} Years as a Member`
+
+
 
             // appending to main list item
-            shopList.appendChild(iconImage);
+            imageContainer.appendChild(iconImage);
+            shopList.appendChild(imageContainer);
             shopList.appendChild(nameh3);
             shopList.appendChild(linkAnchor);
             shopList.appendChild(addressP);

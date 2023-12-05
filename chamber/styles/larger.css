@@ -299,7 +299,6 @@ grid-template-rows: repeat(10,auto); */
     }
     #switch-view{
         grid-column: 2/4;
-        grid-row: 1;
         height:fit-content;
         width: fit-content;
         margin: 1rem auto;
@@ -318,11 +317,14 @@ grid-template-rows: repeat(10,auto); */
     }
     .grid-view{
         display: grid;
-        grid-template-columns: repeat(auto-fit, 350px);
+        grid-template-columns: repeat(4, 350px);
         gap: 15px;
     }
+    .grid-view div{
+        height: 273.2px;
+    }
     .grid-view li{
-        height: 530px;
+        height: 540px;
         width: 300px;
         text-align: center;
         font-family: lato;
@@ -337,68 +339,100 @@ grid-template-rows: repeat(10,auto); */
     .grid-view img{
         max-height: 270px;
         width: auto;
+        align-items: center;
     }
     .grid-view p{
         color: #cdd1c4ff;
         text-align: center;
+        width: fit-content;
+        margin: 0 auto;
+        padding: .75rem;
     }
     .grid-view a{
         color: #cdd1c4ff;
         text-align: center;
+        width: fit-content;
     }
-    .grid-view div{
-        text-align: center;
+    #colonial-shop{
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #chowning-shop{
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #duck-shop{
+        grid-column: 3;
+        grid-row: 2;
+    }
+    #busch-shop{
+        grid-column: 4;
+        grid-row: 2;
+    }
+    #club-shop{
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+    #capitol-shop{
+        grid-column: 2/3;
+        grid-row: 3;
+    }
+    #wallace-shop{
+        grid-column: 3/4;
+        grid-row: 3;
     }
     .list{
         display: flex;
         flex-direction: column;
     }
-
+    .list div{
+        display: none;
+    }
     .list li{
         height: fit-content;
         width: 88%;
-        text-align: left;
         font-family: lato;
+        text-align: left;
         font-size: 1.1rem;
         list-style: none;
         margin-left: 2rem;
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-columns: repeat(6, auto);
         background-color: #30323dff;
         color: #cdd1c4ff;
         border: none;
         padding: var(--common-margin);
     }
-    .list img {
-        display: none;
+    .list h3{
+        width: fit-content;
+        text-align: center;
+        padding-right: var(--common-margin);
     }
     .list li:nth-child(odd){
         width: 90%;
         background-color: #cdd1c4ff;
         color: #30323dff;
-        padding-right: 10px;
     }
     .list li:nth-child(odd) a{
-        text-align: left;
         color: #30323dff;
-        padding-right: 7rem;
+        padding-right: 1rem;
     }
     .list li:nth-child(odd) p{
-        width: auto;
-        text-align: left;
+        width: fit-content;
+        text-align: center;
         color: #30323dff;
-        padding-right: 5rem;
+        padding-right: 1rem;
     }
     .list li:nth-child(even) a{
         width: fit-content;
-        text-align: left;
+        text-align: center;
         background-color: #30323dff;
         color: #cdd1c4ff;
-        padding-right: 7rem;
+        text-align: center;
+        padding-right: 1rem;
     }
     .list li:nth-child(even) p{
-        text-align: left;
         color: #cdd1c4ff;
-        padding-right: 3rem;
+        padding-right: 1rem;
     }
 }

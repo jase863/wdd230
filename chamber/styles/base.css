@@ -399,15 +399,16 @@ font-family: var(--form-text);
 font-size: 20px;
 text-align: center;
 }
-
-/*
-main 
-grid-template-columns: repeat(4, 1fr);
-grid-template-rows: repeat(10,auto); */
+/* ----------------------------------------------------------------------------------------------------------- */
 #switch-view{
-    margin: 1rem auto;
+    grid-column: 1/5;
+    grid-row: 1 ;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0.5rem;
+    padding: .75rem;
     background-color: #3F5479;
     text-align: center;
 }
@@ -415,18 +416,124 @@ grid-template-rows: repeat(10,auto); */
     padding: 1rem;
     font-weight: 700;
 }
+#businesses p{
+    font-family: lato;
+    font-size: 1.1rem;
+}
 .grid-view{
-    display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	grid-gap: 5px;
-	align-items: center;
+    width: 80%;
+}
+.grid-view div{
+    height: 273.2px;
 }
 .grid-view li{
+    height: auto;
+    width: 100%;
     text-align: center;
-    height: 600px;
-    width: auto;
+    font-family: lato;
+    font-size: 1rem;
+    color: #cdd1c4ff;
+    list-style: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.3rem;
+    background-color: #4d5061ff;
+    margin-left: -.9rem;
+    margin-top: 2rem;
 }
-#businesses img{
+.grid-view img{
     max-height: 270px;
     width: auto;
+    align-items: center;
+}
+.grid-view p{
+    color: #cdd1c4ff;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: .75rem;
+}
+.grid-view a{
+    color: #cdd1c4ff;
+    text-align: center;
+    width: fit-content;
+}
+#colonial-shop{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+#chowning-shop{
+    grid-column: 2/4;
+    grid-row: 3;
+}
+#duck-shop{
+    grid-column: 2/4;
+    grid-row: 4;
+}
+#busch-shop{
+    grid-column: 2/4;
+    grid-row: 5;
+}
+#club-shop{
+    grid-column: 2/4;
+    grid-row: 6;
+}
+#capitol-shop{
+    grid-column: 2/4;
+    grid-row: 7;
+}
+#wallace-shop{
+    grid-column: 2/4;
+    grid-row: 8;
+}
+.list{
+    display: block;
+    width: 80%;
+}
+.list div{
+    display: none;
+}
+.list li{
+    height: fit-content;
+    width: 19.7rem;
+    font-family: lato;
+    text-align: center;
+    font-size: 1.1rem;
+    list-style: none;
+    display: block;
+    background-color: #30323dff;
+    color: #cdd1c4ff;
+    border: none;
+    margin-left: -2.4rem;
+    justify-content: center;
+}
+.list h3{
+    width: 100%;
+    text-align: center;
+}
+.list li:nth-child(odd){
+    width: 100%;
+    text-align: center;
+    background-color: #cdd1c4ff;
+    color: #30323dff;
+}
+.list li:nth-child(odd) a{
+    text-align: center;
+    color: #30323dff;
+}
+.list li:nth-child(odd) p{
+    width: 100%;
+    text-align: center;
+    color: #30323dff;
+    padding-right: 1rem;
+}
+.list li:nth-child(even) a{
+    width: 100%;
+    text-align: center;
+    background-color: #30323dff;
+    color: #cdd1c4ff;
+    text-align: center;
+}
+.list li:nth-child(even) p{
+    color: #cdd1c4ff;
+    text-align: center;
 }

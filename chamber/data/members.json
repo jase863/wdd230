@@ -10,7 +10,8 @@
                     "icon":"images/cw-logo.webp",
                     "memberLevel":"Non-Profit",
                     "memberYears":"10",
-                    "id": "colonial-shop"
+                    "id": "colonial-shop",
+                    "spotlight": "N/A"
                 }
             ]
         },
@@ -24,7 +25,8 @@
                     "icon":"images/chownings-icon.webp",
                     "memberLevel":"Gold",
                     "memberYears":"4",
-                    "id": "chowning-shop"
+                    "id": "chowning-shop",
+                    "spotlight": "Nestled in the heart of Duke of Gloucester Street in Colonial Williamsburg is Josiah Chowning's Tavern. Come experience what 18th century dining was like in this period-accurate replica of the tavern. Passionate staff play the part by dressing in the clothing of the time period. Their menu features fare from the time of our nation's founding, including Shepherd's Pye, Beef Trenchers, Sippets, and Welsh Rarebit. The atmosphere is perfect for anyone who loves history, and the food is enough to make up for those who don't."
                 }
             ]
         },
@@ -38,7 +40,8 @@
                     "icon":"images/duck-donuts-logo.webp",
                     "memberLevel":"Silver",
                     "memberYears":"2",
-                    "id": "duck-shop"
+                    "id": "duck-shop",
+                    "spotlight": "Are you a fan of delicious, fresh cake donuts? Then you've come to the right place! Duck Donuts is truly a one-of-a-kind experience. Upon entering the store, customers are greeted with the aroma of fresh donuts. The friendly employees make your donuts to order, and they serve them to you with a smile on their face. If you love warm, delicious donuts, stop by Duck Donuts and try one today!"
                 }
             ]
         },
@@ -52,7 +55,8 @@
                     "icon":"images/busch-logo.webp",
                     "memberLevel":"Gold",
                     "memberYears":"6",
-                    "id": "busch-shop"
+                    "id": "busch-shop",
+                    "spotlight": "Thrills await anyone who ventures to Busch Gardens, just outside of Williamsburg. Their state-of-the-art rollercoasters provide guests with non-stop fun that lasts throughout the entire ride, as well as memories that last a lifetime. The unique European theming of the park provides a rich atmosphere unlike any other theme park. During the holidays, experience the warm ambience of Christmas in Europe by visiting Christmas Town. Busch Gardens offers fun for the whole family, throughout the whole year. Buy your tickets today and unlock your passport to amazing fun and memories."
                 }
             ]
         },
@@ -66,7 +70,8 @@
                     "icon":"images/wyndham.webp",
                     "memberLevel":"Gold",
                     "memberYears":"3",
-                    "id": "club-shop"
+                    "id": "club-shop",
+                    "spotlight": "Come stay with us at Club Wyndham Kingsgate, your home away from home. Located conveniently right in the middle of Williamsburg, you'll be able to get to the spots on your agenda with ease. If you need some time to relax, Kingsgate offers a myriad of relaxing options, from minigolf and hot tubs, to pools and family activities. The clean condos include a full kitchen, washer, and dryer, so you feel more at home. Our staff members are only a phone call away, and they can offer suggestions as to things to see and do in the area. Come stay in comfort with us while you're away from your other home."
                 }
             ]
         },
@@ -80,7 +85,8 @@
                     "icon":"images/pancake.webp",
                     "memberLevel":"Bronze",
                     "memberYears":"4",
-                    "id": "capitol-shop"
+                    "id": "capitol-shop",
+                    "spotlight": "N/A"
                 }
             ]
         },
@@ -94,7 +100,8 @@
                     "icon":"images/wtp-logo.webp",
                     "memberLevel":"Bronze",
                     "memberYears":"2",
-                    "id": "wallace-shop"
+                    "id": "wallace-shop",
+                    "spotlight": "N/A"
                 }
             ]
         }

@@ -33,6 +33,34 @@ padding: 5%;
 color: #cdd1c4ff;
 text-decoration: none;
 }
+#home a{
+    color: #3F5479;
+}
+#home{
+    background-color: #cdd1c4ff;
+    margin-bottom: 5px;
+}
+#discover a{
+    color: #3F5479;
+}
+#discover{
+    background-color: #cdd1c4ff;
+    margin-bottom: 5px;
+}
+#directory a{
+    color: #3F5479;
+}
+#directory{
+    background-color: #cdd1c4ff;
+    margin-bottom: 5px;
+}
+#join a{
+    color: #3F5479;
+}
+#join{
+    background-color: #cdd1c4ff;
+    margin-bottom: 5px;
+}
 nav li{
 display: none;
 }

@@ -22,3 +22,5 @@ darkModeButton.addEventListener('click', ()=>{
 
     }
 });
+
+let q = document.querySelectorAll("li");

@@ -19,6 +19,23 @@ top: 1px;
 font-size: 150%;
 color: #cdd1c4ff;
 }
+#banner{
+    display: none;
+    text-align: center;
+    padding: 3rem;
+    margin-top: .25rem;
+    background-color: #cdd1c4ff;
+    color: #3F5479;
+    z-index: 1;
+    opacity: .75;
+}
+#banner-close{
+    display: none;
+    position: absolute;
+    top: 10rem;
+    right: 20px;
+    z-index: 1;
+}
 nav{
 display: flex;
 flex-direction: column;
@@ -64,7 +81,6 @@ text-decoration: none;
 nav li{
 display: none;
 }
-
 nav li a{
 display: block;
 padding: 1rem;
@@ -121,7 +137,7 @@ color: yellow;
 
 main{
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(4, auto);
 grid-template-rows: repeat(10,auto);
 }
 
@@ -150,7 +166,8 @@ grid-column: 2/4;
 grid-row: 7;
 margin-top: 15%;
 border: 1px solid black;
-
+width: 80%;
+justify-self: center;
 }
 #current-event h2{
 font-family: Arimo;
@@ -159,6 +176,10 @@ color: #30323dff;
 }
 #current-event p{
 text-align: center;
+color: #30323dff;
+padding-left: 10px;
+padding-right: 10px;
+font-size: 18px;
 }
 #weather{
 grid-column: 2/4;
@@ -166,11 +187,17 @@ grid-row: 8;
 margin-top: 15%;
 text-align: center;
 border: 1px solid black;
+width: 80%;
+justify-self: center;
 }
 #weather h2{
 font-family: Arimo;
 text-align: center;
 color: #30323dff;
+}
+#weather h3{
+font-family: Arimo;
+font-size: 16px;
 }
 #spotlight{
 grid-column: 2/4;
@@ -178,13 +205,23 @@ grid-row: 9;
 margin-top: 15%;
 margin-bottom: 15%;
 font-family: Arimo;
-width: fit-content;
 border: 1px solid black;
+text-align: center;
+width: 80%;
+justify-self: center;
+font-size: 18px;
 }
 #spotlight h2{
 text-align: center;
 font-family: Arimo;
 color: #30323dff;
+padding: 10px;
+}
+#spotlight p{
+    padding: 10px;
+    text-align: center;
+    font-family: lato;
+    color: #30323dff;
 }
 #days-message{
 grid-column: 2/4;

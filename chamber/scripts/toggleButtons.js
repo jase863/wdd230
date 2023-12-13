@@ -1,6 +1,11 @@
 const menuButton = document.querySelector('#menu');
 const navi = document.querySelector('nav');
 
+let day = new Date();
+
+const banner = document.querySelector("#banner");
+const bannerButton = document.querySelector("#banner-close");
+
 const darkModeButton = document.querySelector('#dark-mode');
 const main = document.querySelector('main');
 const largerBody = document.querySelector('body');
@@ -10,17 +15,12 @@ menuButton.addEventListener('click', ()=>{
     menuButton.classList.toggle('open');
 });
 
-darkModeButton.addEventListener('click', ()=>{
 
-    main.classList.toggle('mode');
-    darkModeButton.classList.toggle('mode');
-
-    if (visualViewport.width >= 640){
-    
-    main.classList.toggle('mode');
-    largerBody.classList.toggle('mode');
-
-    }
+if (day.getDay() === 1 || day.getDay() === 2 || day.getDay() === 3){
+    banner.style.display = "block";
+    bannerButton.style.display = "block";
+}
+bannerButton.addEventListener('click', ()=>{
+    banner.style.display = "none";
+    bannerButton.style.display = "none";
 });
-
-let q = document.querySelectorAll("li");

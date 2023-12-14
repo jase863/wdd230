@@ -38,9 +38,9 @@
                     <div>*Denotes a Required Field</div>
                     <label>First Name*<input type="text" name="fname" id="fname" required></label>
                     <label>Last Name*<input type="text" name="lname" id="lname" required></label>
-                    <label>Job Title<input type="text" name="position" id="position" pattern="[a-zA-Z\s-]{7}"></label>
-                    <label>Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="example@gmail.com"></label>
-                    <label>Mobile Phone*<input type="tel" required name="mobile-phone" id="cell-phone"></label>
+                    <label>Business Title<input type="text" name="position" id="position" pattern="[a-zA-Z\s-]{7}"></label>
+                    <label>Email* <input type="email" id="email" name="email" required pattern="[a-zA-Z0-9._-]+@byui\.edu$" placeholder="example@byui.edu"></label>
+                    <label>Cell Phone*<input type="tel" required name="mobile-phone" id="cell-phone"></label>
             </fieldset>
 
             <fieldset id="business">
@@ -52,7 +52,7 @@
                     <label class="mlevel"><input type="radio" name="membership" value="bronze"> Bronze</label>
                     <label class="mlevel"><input type="radio" name="membership" value="silver"> Silver</label>
                     <label class="mlevel"><input type="radio" name="membership" value="gold"> Gold</label>
-                    <label>Business Description<textarea name="description" id="biz-description" cols="30" rows="7" minlength="7" maxlength="200"></textarea></label>
+                    <label>Business Description<textarea name="description" id="biz-description" cols="30" rows="7" maxlength="200"></textarea></label>
                     <label><input type="hidden" name="timestamp" id="timeStamp" value=""></label>
             </fieldset>
             <input type="submit" value="Apply to Join" id="submit">

@@ -1,0 +1,16 @@
+#main{
+    display: inline;
+}
+#biz-description{
+    width: fit-content;
+    padding: auto;
+
+}
+#addedText{
+    width: fit-content;
+    height: auto;
+    margin-left: 50%;
+    margin-bottom: auto;
+    border: 5px;
+    border-color: black;
+}
